@@ -94,22 +94,3 @@ let isNumeric = function () {
     }
 
 }
-
-var servers = function () {
-    var formulario = document.form;
-    var url;
-    
-    if(formulario.google.checked){
-        url = "http://www.google.com";
-    }
-    if(formulario.bing.checked){
-        url = "http://www.bing.com";
-    }
-    if(formulario.yahoo.checked){
-        url = "http://www.yahoo.com";
-    }
-    if(formulario.ask.checked){
-        url = "http://www.ask.com";
-    }
-    window.location.href = url;
-}
